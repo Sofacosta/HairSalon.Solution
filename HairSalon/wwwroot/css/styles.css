@@ -1,0 +1,16 @@
+body {
+  background-color:rgb(164, 192, 202);
+}
+
+img {
+  width:500px;
+  height:500px;
+}
+
+.center {
+  margin: auto;
+  margin-top: 30px;
+  width: 50%;
+  border: 6px solid rgb(0, 0, 0);
+  padding: 10px;
+}
