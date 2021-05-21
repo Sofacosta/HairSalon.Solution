@@ -40,9 +40,8 @@ CREATE TABLE `sofia_acosta`.`stylists` (
 CREATE TABLE `sofia_acosta`.`clients` (
   `ClientId` INT NOT NULL AUTO_INCREMENT,
   `ClientName` VARCHAR(45) NULL DEFAULT 0,
-  `StylistId` INT UNSIGNED ZEROFILL NULL AFTER `ClientName`;
+  `StylistId` INT UNSIGNED ZEROFILL NULL AFTER `Name`;
   PRIMARY KEY (`ClientId`));
-
 
 ### Create appsettings.json and add this code into it:   
 
