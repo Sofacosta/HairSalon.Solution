@@ -1,7 +1,7 @@
-# Hair Salon
-## Independent project #11 Database Basics
+# Hair Salon 💅
+## Independent project: Database Basics
 ### Project initiated: 05-20-2021
-### Project modified: 
+### Project modified: 05-21-2021 
 ### By Sofia Acosta
 ## Project Description
 MVC web application to help a hair salon manage her employees (stylists) and their clients
@@ -27,7 +27,12 @@ MVC web application to help a hair salon manage her employees (stylists) and the
 * Navigate to the directory where you would like to save this project 
 * Clone the project with $ git clone https://github.com/Sofacosta/HairSalon.Solution.git
 * Type "dotnet build" in root folder and hit enter
-* To start program. navigate to HairSalon and press the dotnet watch run command.     
+* To start program. navigate to HairSalon and press the dotnet watch run command. 
+* Create appsettings.json and add this code into it: {
+  "ConnectionStrings": {
+      "DefaultConnection": "Server=localhost;Port=3306;database=sofia_acosta;uid=root;pwd=[PASSWORD];"
+  }
+}      
 ```
 Setup Database
 
@@ -43,10 +48,8 @@ CREATE TABLE `sofia_acosta`.`clients` (
   `ClientName` VARCHAR(45) NULL DEFAULT 0,
   `StylistId` INT UNSIGNED ZEROFILL NULL AFTER `Name`;
   PRIMARY KEY (`ClientId`));
-
-### Create appsettings.json and add this code into it:   
-
 ```
+![sqlimg](/images/sqlimg.png)
 
 ## Known Bugs
 
