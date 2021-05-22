@@ -36,6 +36,7 @@ CREATE TABLE `sofia_acosta`.`stylists` (
   `StylistId` INT NOT NULL AUTO_INCREMENT,
   `Name` VARCHAR(45) NULL DEFAULT 0,
   `Description` VARCHAR(45) NULL DEFAULT 0,
+  `HireDate` INT NULL DEFAULT 0 AFTER `Description`;
   PRIMARY KEY (`StylistsId`));
 CREATE TABLE `sofia_acosta`.`clients` (
   `ClientId` INT NOT NULL AUTO_INCREMENT,
