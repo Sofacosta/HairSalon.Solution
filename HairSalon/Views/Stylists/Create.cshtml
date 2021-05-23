@@ -5,16 +5,18 @@
 @model HairSalon.Models.Stylist
 
 <h4>Add a new stylist</h4>
+<h5>Please add a brief description of the Stylist’s specialty in the Description box below.</h5>
 @using (Html.BeginForm())
 {
-  @Html.LabelFor(model => model.Name)
-  @Html.TextBoxFor(model => model.Name)
-  @Html.LabelFor(model => model.Description)
-  @Html.TextBoxFor(model => model.Description)
-  @Html.LabelFor(model => model.HireDate)
-  @Html.TextBoxFor(model => model.HireDate)
-
-
+  <div class="add-stylist-form-wrapper">
+    <p>@Html.LabelFor(model => model.Name) 
+    @Html.TextBoxFor(model => model.Name)</p>
+    <p>@Html.LabelFor(model => model.Description) 
+    @Html.TextBoxFor(model => model.Description)</p>
+    <p>@Html.LabelFor(model => model.HireDate) 
+    @Html.TextBoxFor(model => model.HireDate)</p>
+  </div>
+  
   <input type="submit" value="Add new stylist" />
 }
 <p>@Html.ActionLink("Show all stylists", "Index")</p>

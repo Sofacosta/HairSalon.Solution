@@ -1,10 +1,10 @@
 body {
-  background-color:rgb(164, 192, 202);
+  background-color: rgb(164, 192, 202); 
 }
 
 img {
-  width:500px;
-  height:500px;
+  width: 500px;
+  height: 500px;
 }
 
 .center {
@@ -16,6 +16,21 @@ img {
 }
 
 h1 {
+  font: 40px Courier; 
+}
 
-  font: 40px Courier ; 
+.add-stylist-form-wrapper {
+  width: 325px;
+}
+
+.add-stylist-form-wrapper p {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.add-client-form-wrapper p {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
 }

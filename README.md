@@ -1,7 +1,7 @@
 # Hair Salon 💅
 ## Independent project: Database Basics
 ### Project initiated: 05-20-2021
-### Project modified: 05-21-2021 
+### Project modified: 05-22-2021 
 ### By Sofia Acosta
 ## Project Description
 MVC web application to help a hair salon manage her employees (stylists) and their clients
@@ -27,12 +27,13 @@ MVC web application to help a hair salon manage her employees (stylists) and the
 * Navigate to the directory where you would like to save this project 
 * Clone the project with $ git clone https://github.com/Sofacosta/HairSalon.Solution.git
 * Type "dotnet build" in root folder and hit enter
-* To start program. navigate to HairSalon and press the dotnet watch run command. 
 * Create appsettings.json and add this code into it: {
   "ConnectionStrings": {
       "DefaultConnection": "Server=localhost;Port=3306;database=sofia_acosta;uid=root;pwd=[PASSWORD];"
   }
-}      
+}   
+* To start program. navigate to HairSalon and press the dotnet watch run command. 
+* Please see details to setup database below:     
 ```
 Setup Database
 
@@ -55,7 +56,8 @@ CREATE TABLE `sofia_acosta`.`clients` (
 
 ## Notes
 
-This [link](https://hevodata.com/learn/mysql-workbench-database-dump/#steps) helps with how to get a MySQL Workbench Database Dump
+* This [link](https://hevodata.com/learn/mysql-workbench-database-dump/#steps) helps with how to get a MySQL Workbench Database Dump
+* [Flex Box](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) for css layout 
 
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
