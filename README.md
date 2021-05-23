@@ -49,11 +49,13 @@ CREATE TABLE `sofia_acosta`.`clients` (
   `StylistId` INT UNSIGNED ZEROFILL NULL AFTER `Name`;
   PRIMARY KEY (`ClientId`));
 ```
-![sqlimg](/images/sqlimg.png)
+![sqlimg](HairSalon/images/sqlimg.png)
 
 ## Known Bugs
 
 ## Notes
+
+This [link](https://hevodata.com/learn/mysql-workbench-database-dump/#steps) helps with how to get a MySQL Workbench Database Dump
 
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
